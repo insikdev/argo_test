@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-world
-      image: insikdev/jenkins_test:latest
-      ports:
-        - containerPort: 8080
+          image: insikdev/jenkins_test:latest
+          ports:
+            - containerPort: 8080
